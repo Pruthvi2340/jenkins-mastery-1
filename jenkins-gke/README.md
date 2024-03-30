@@ -57,4 +57,7 @@ helm list
 helm get all myjenkin
 helm show values jenkins/jenkins
 ```
-
+**Get all values passed to the helm repo**
+```
+helm get values myjenkins -a -n default > values.yaml
+```
