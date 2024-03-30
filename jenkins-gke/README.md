@@ -51,4 +51,10 @@ kubectl --namespace default port-forward svc/myjenkins 8080:8080 >> /dev/null &
 ```
 kubectl exec --namespace default -it svc/myjenkins -c jenkins -- /bin/cat /run/secrets/additional/chart-admin-password && echo
 ```
+**list all resource created by helm**
+```
+helm list
+helm get all myjenkin
+helm show values jenkins/jenkins
+```
 
