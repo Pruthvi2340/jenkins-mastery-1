@@ -1,4 +1,4 @@
-# Jenkins installation in kubernetes
+# Jenkins installation in goolge kubernetes engine
 
 ```
 helm repo add jenkins https://charts.jenkins.io
